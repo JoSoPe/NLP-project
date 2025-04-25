@@ -1,0 +1,39 @@
+# Whisper model for transcription
+openai-whisper
+
+# Torch backend required by Whisper
+torch
+
+# Optional: Audio input/output handling
+pyaudio
+
+# Audio file handling and conversion
+pydub
+
+# FFmpeg wrapper (NOT the ffmpeg binary itself)
+ffmpeg-python
+
+# For calculating WER (Word Error Rate) and CER (Character Error Rate)
+jiwer
+
+# For visualizing the WER and CER results
+tabulate
+
+# Optional: Useful for advanced NLP/intent detection
+transformers
+
+#To calculate the cosine similarity between the transcribed text and the available commands
+scikit-learn
+
+# System requirement: You still need to install FFmpeg separately
+
+# On windows
+# 1. Download FFmpeg from: https://www.gyan.dev/ffmpeg/builds/
+# 2. Extract it (e.g., to C:\ffmpeg)
+# 3. Add C:\ffmpeg\bin to your system PATH environment variable.
+# 4. Verify with: ffmpeg -version
+
+#on Linux
+# 1. sudo apt update
+# 2. sudo apt install ffmpeg
+
